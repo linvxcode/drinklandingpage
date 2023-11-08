@@ -4,7 +4,7 @@ import React from "react";
 
 const Mainpage = () => {
   return (
-    <div className="flex justify-between py-[150px]  px-20 max-w-[1500px]">
+    <div className="flex justify-between relative py-[150px] overflow-hidden px-20 max-w-[1500px]">
       <div>
         <h1 className="lg:text-7xl font-bold w-[50%]">ENERGY DRINK</h1>
         <h2 className="w-[50%] mt-3 leading-relaxed">
@@ -14,8 +14,12 @@ const Mainpage = () => {
         </h2>
         <Buttons className="mt-3 " href="" icon="" icons="" title="Read More" />
       </div>
-      <div className="w-[20%]">
+      <div className="w-[20%] relative z-[9]">
         <h1>ashkjdasd</h1>
+      </div>
+      <div className="rightbg h-screen w-[40%] top-0 right-0 absolute"></div>
+      <div className="absolute top-0 right-[-10px] overflow-hidden">
+        <Image src='/img/drink.png' alt="drink" width={800} height={569} priority className="w-[900px] h-auto overflow-hidden object-cover" />
       </div>
     </div>
   );
