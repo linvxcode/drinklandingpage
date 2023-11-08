@@ -1,3 +1,4 @@
+import Buttons from "@/common/component/element/Buttons";
 import Image from "@/common/component/element/Image";
 import React from "react";
 
@@ -11,6 +12,7 @@ const Mainpage = () => {
           industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever
           since the 1500s,
         </h2>
+        <Buttons className="mt-3 " href="" icon="" icons="" title="Read More" />
       </div>
       <div className="w-[20%]">
         <h1>ashkjdasd</h1>
