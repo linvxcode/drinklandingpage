@@ -1,6 +1,7 @@
 import Buttons from "@/common/component/element/Buttons";
 import Image from "@/common/component/element/Image";
 import React from "react";
+import {AiFillRead} from 'react-icons/ai'
 
 const Mainpage = () => {
   return (
@@ -12,7 +13,7 @@ const Mainpage = () => {
           industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever
           since the 1500s,
         </h2>
-        <Buttons className="mt-3 " href="" icon="" icons="" title="Read More" />
+        <Buttons className="mt-3 " href="" icon={<AiFillRead size={20}  />} icons={<AiFillRead size={40} className="text-orange-600 group-hover:text-orange-200 lg:transition-all lg:duration-300" />} title="Read More" />
       </div>
       <div className="w-[20%] relative z-[9]">
         <h1>ashkjdasd</h1>
