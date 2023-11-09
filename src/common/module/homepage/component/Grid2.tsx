@@ -3,7 +3,7 @@ import { GridText } from "@/common/constant/GridText";
 
 const Grid2 = () => {
   return (
-    <div className="w-[25%] relative z-[9]">
+    <div className="md:w-[25%] w-[40%] max-md:mt-[190px] max-sm:top-[150px] relative z-[9]">
       {GridText.map((item, index) => (
         <div className="flex relative mb-10 px-2 flex-col" key={index}>
           <h1 className="text-xl font-bold">{item.head}</h1>

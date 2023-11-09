@@ -25,9 +25,9 @@ const Navbar = () => {
       )}
     >
       <div className="flex flex-row justify-between items-center ">
-        <div className="flex justify-start">
+        <div className="flex justify-start max-lg:basis-[80%]">
           <Link href="/">
-            <h1 className="text-2xl text-white font-bold">DRINK</h1>
+            <h1 className="text-2xl  text-white font-bold">DRINK</h1>
           </Link>
         </div>
         <div className="hidden pr-[380px] gap-14 lg:flex">
