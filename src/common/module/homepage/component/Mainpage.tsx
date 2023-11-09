@@ -3,11 +3,15 @@ import Image from "@/common/component/element/Image";
 import React from "react";
 import { AiFillRead } from "react-icons/ai";
 import Grid2 from "./Grid2";
+import Layouts from "@/common/component/element/Layouts";
+import Translate from "@/common/component/element/Translate";
 
 const Mainpage = () => {
   return (
     <div className="md:flex grid grid-cols-1 justify-between relative py-[150px] overflow-x-hidden px-10 max-w-[1200px]">
-      <div>
+      <Translate tranlateY={100}>
+
+      <div className="relative z-[9]">
         <h1 className="lg:text-7xl text-5xl font-bold md:w-[50%]">
           ENERGY DRINK
         </h1>
@@ -29,8 +33,10 @@ const Mainpage = () => {
           title="Read More"
         />
       </div>
+      </Translate>
       <Grid2 />
       <div className="absolute  md:top-[-50px] top-[380px] right-[-70px] md:right-[-70px] lg:right-[-10px] overflow-hidden z-[9]">
+        <Layouts>
         <Image
           src="/img/drink.png"
           alt="drink"
@@ -39,6 +45,7 @@ const Mainpage = () => {
           priority
           className="md:w-[830px] w-[500px] overflow-hidden object-cover"
         />
+          </Layouts>
       </div>
     </div>
   );

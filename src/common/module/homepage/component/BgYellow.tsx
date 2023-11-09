@@ -2,7 +2,7 @@ import React from 'react'
 
 const BgYellow = () => {
   return (
-    <div className="rightbg h-screen w-[50%] max-md:hidden top-0 right-0 absolute"></div>
+    <div className="rightbg md:h-screen h-[200vh] w-[50%]  top-0 right-0 absolute"></div>
 
   )
 }
