@@ -6,11 +6,11 @@ export const NavigationItem = [
         title: 'Home'
     },
     {
-        src: '/allcharacter',
-        title: 'All Character'
+        src: '#',
+        title: 'About'
     },
     {
-        src: '/contact',
+        src: '#',
         title: 'Contact'
     },
 ]
