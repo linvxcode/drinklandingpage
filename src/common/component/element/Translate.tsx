@@ -12,6 +12,7 @@ const Translate = ({children, tranlateY}: TranlateProps) => {
     <motion.div
     initial={{opacity: 0, translateY: tranlateY}}
     animate={{opacity:1, translateY: 0, transition: {type: "spring", duration: 2}}}
+    className='relative z-[9]'
     >
     {children}  
     </motion.div>
